@@ -1,9 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinterio</title>
+    <!-- DaisyUI & Tailwind CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+    <!-- Font Awesome Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body class="manrope bg-[#ebeaea85]">
+    <!-- Header Section -->
+    <header class="md:w-5/6 mx-auto py-14">
+      <!-- Nav -->
+      <nav>
+        <div class="navbar justify-between">
+          <div class="gap-52">
+            <a class="btn btn-ghost">
+              <div class="p-2 rounded-full bg-[#ABEF5F]">
+                <i class="fa-solid fa-arrow-right -rotate-45"></i>
+              </div>
+              <h1 class="text-3xl font-extrabold">Rinterio</h1>
+            </a>
+            <div class="md:hidden bg-white px-3 py-2 rounded-full">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="font-extrabold"><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="hidden md:flex">
+            <button class="rounded-full p-3 bg-white mr-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </button>
+            <button class="rounded-full p-3 bg-white mr-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+              </svg>
+            </button>
+            <a
+              class="flex gap-1 items-center text-xl px-5 py-3 bg-[#ABEF5F] rounded-[32px]"
+              ><div class="font-extrabold">Book Consult</div>
+              <button
+                class="rounded-full px-3 py-2 bg-black text-white text-xs ml-0.5"
+              >
+                <i class="fa-solid fa-arrow-right -rotate-45"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main Section -->
+    <main></main>
+    <!-- Footer Section -->
+    <footer></footer>
+  </body>
 </html>
